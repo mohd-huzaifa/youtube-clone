@@ -1,0 +1,20 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    /* background-color: aquamarine; */
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    display: none;
+    overflow: hidden;
+}
+
+.scrolling{
+    position: sticky;
+    top: 77px;
+}
+
